@@ -1,0 +1,280 @@
+.musiccontainer{
+  background: #E8E9E9;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  z-index: 32;
+}
+
+
+
+
+
+.longartholder{
+  height: 70vh;
+  width:64vw;
+}
+
+.longart{
+  height: 70vh;
+  width:64vw;
+  background: #08142A;
+ /* background: url('img/tara.jpg');*/
+  background-size: cover;
+  background-position: center;
+  border-radius: 0rem 0rem 50rem 50rem;
+  box-shadow: 0px 0px 30px black;
+       box-shadow: -5px -5px 10px var(--clr-dark), 5px 5px 10px var(--clr-dark);
+
+}
+.art{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+    width:64vw;
+          background: red;
+
+      background: url('/cover/mushup.jpg');
+background-size: cover;
+background-position: center;
+
+}
+.art ig{
+  height: 31rem;
+
+}
+.opy{
+  position: absolute;
+  top:0;
+  height: 64vh;
+  width:64vw;
+    border-radius: 0rem 0rem 50rem 50rem;
+
+  
+  background: linear-gradient(
+  #42445A00 0%,
+  #42445A36 40%,
+  #08142A 70%,
+  #08142A 100%);
+}
+.opy h1{
+  font-size: 2.3rem;
+  color: white;
+  position: absolute;
+      width:64vw;
+
+  top: 50vh; 
+  display: flex;
+  justify-content: center;
+}
+
+.opy h2{
+  font-size: 1.2rem;
+  color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+    top: 55vh; 
+        width:64vw;
+}
+.opy h3 {
+  font-size: .7rem;
+  color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 59vh;
+  width: 64vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************        progress        *********+**/
+
+.seekbarholder{
+  margin-top: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 100vw;
+  position: absolute; top: 75vh;
+
+}
+.progress_container{
+
+  height: 2rem;
+  width: 100%;
+    position: absolute; top: 75vh;
+
+}
+
+.progress_div{
+  margin: auto;
+  width: 90%;
+  height: 0.5rem;
+  border-radius: 4rem;
+    box-shadow: -3px -3px 6px var(--clr-light), 3px 3px 6px var(--clr-dark),  inset -3px -3px 6px var(--clr-light), inset 3px 3px 6px var(--clr-dark);
+  position: relative;
+  margin-top: 0.5rem;
+  transition: width 1s linear;
+    -webkit-transition: width 1s linear;
+display: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.progress{
+  position: absolute;
+  top: 0; left: 0;
+  width: 0%;
+  height: 100%;
+  background: #000;
+  border-radius: 4rem;
+  position: relative;
+  transition: width 0.2s linear;
+    -webkit-transition: width 0.2s linear;
+
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.progress_duration_meter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5vw;
+  font-size: 1.2rem;
+  height: 100%;
+}
+
+
+
+
+
+
+
+.seekbar{
+  -webkit-appearance: none;
+  width: 70%;
+  height: 1rem;
+  background: #fff;
+  margin: auto;
+  border-radius: 2rem;
+  box-shadow: inset 1px 1px 10px black;
+  box-shadow: -3px -3px 6px var(--clr-light), 3px 3px 6px var(--clr-dark),  inset -3px -3px 6px var(--clr-light), inset 3px 3px 6px var(--clr-dark);
+    cursor: pointer;
+  
+}
+.seekbar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 2rem;
+    width: 2rem;
+          background: #EFF3FF;
+  box-shadow: 0px 0px 5px black;
+border-radius: 50%;
+border: .5rem solid black;
+}
+
+.controlbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 10rem;
+  width:100vw;
+top: 80vh;  
+}
+
+.controlholder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width:60vw;
+}
+
+.chd{
+  height: 4rem;
+  width:19rem;
+  background: #FFFFFA;
+  border-radius: 5rem;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+}
+.playcircle{
+  height: 6rem; width: 6rem;
+  border-radius: 50%;
+  background: #000000;
+  box-shadow: 0px 0px 10px #00000087;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.playcircle img, .chd img{
+display: flex;
+    justify-content: center;
+    align-items: center;
+height: 2rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --clr-light: white;
+    --clr-med: #d7dfe2;
+    --clr-dark: #90a4ae;
+    --clr-dark-heavy: #546e7a;
+}
+
+
+.play{
+  background: url('/musicimg/play.png');
+  background-size: 2.1rem;
+  background-position: center;
+  height: 2.5rem; width: 2rem;
+background-repeat: no-repeat;
+transition: .2s ease-in;
+}
+
+.pause{
+  background: url('/musicimg/pause.png');
+  background-size: 2.1rem;
+  background-position: center;
+  height: 2.5rem; width: 2rem;
+background-repeat: no-repeat;
+transition: .2s ease-in;
+
+}
+
+
+
+
