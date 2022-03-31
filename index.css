@@ -1,0 +1,420 @@
+/****************BASIC SECTION OF CSS ************/
+html{
+  font-size: 62.50%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/**************** MAIN + NAV > LOGO ************/
+/********** NAV > LOGOBOX > IMG(LOGO)  **********/
+.main{
+  background: linear-gradient(#FFF5FB,#FDDBE2);
+  height: 300vh;
+  width: 100vw;
+}.nav{
+  z-index: 30;
+  background: linear-gradient(#FFF5FB, #FDDBE2);
+  
+  display: flex;
+  justify-content: center;
+  height: 3rem;  width: 100vw;
+  box-shadow: 3px 3px 9px black;
+  position: -webkit-sticky;
+  position: sticky; top:0px;}
+  
+  #logobox{
+    height: 3rem;
+    width: 8rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#logobox img{
+  height: 3rem;}
+/**************** END OF = MAIN + NAV > LOGO ************/
+
+
+  
+  
+  
+  
+  /**************** PRAMODAASMA FANCY NAME ************/
+  /***NAME AREA  >  H1 *****/
+.namearea{
+  /*background: #C4C9FF;*/
+  height: 10rem;  width: 100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+}
+
+/*name decoration*/
+h1{ color: white;
+animation: changeShaddow 1s linear infinite;}
+@keyframes changeShaddow {
+    0%  {  text-shadow: 1px 2px 2px black,
+        0 10px 40px red, 0 0 8px darkred;   }
+    50% {text-shadow: 2px 1px 2px black,
+        10px 0 40px blue, 0 0 8px darkblue; }
+    100%{text-shadow: 1px 2px 2px black,
+        0 10px 40px red, 0 0 8px darkred;   }}
+  /****************CLOSING PRAMODAASMA FANCY NAME ************/
+
+
+
+.svgbody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.svgbody img {
+  height: 20rem;
+}
+
+
+
+
+
+/******************   SCROLL SNAP CSS   ********************/
+/***** CONTAINER > WRAPPER > SECTIONS > BOXES */
+.container{
+  height: 20rem;
+  /*background: blueviolet;*/
+  display: none;
+  justify-content: center;
+  align-items: center;
+  
+}
+   .wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+       overflow-x: auto;
+        -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+      }
+      section {
+         height: 18rem; min-width: 100vw;
+         height: 25rem;
+         scroll-snap-align: center;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+  #box{
+  border-radius: 1.5rem;
+  height: 14rem;
+  width:32.4rem;
+  display: flex;
+  align-items: center;
+    background-size: cover;
+box-shadow: 10px 10px 30px rgba(9, 148, 255, 0.25),
+-10px -10px 20px rgba(9, 148, 255, 0.1),
+inset -5px -5px 15px rgba(9, 148, 255, 0.5);
+}
+/***** CONTAINER > WRAPPER > SECTIONS > BOXES END*/
+
+/*sections css*/
+.box1{
+    background: url(/img/aashu.jpg);
+}
+#vid{
+  background: #42445A00;
+  font-size: 2rem;
+  height: 4rem; width: 9rem;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+  position: relative;
+   left: 10%;
+}
+
+#vid:hover{
+  background: black;
+  color: white;
+}
+.box2{
+    background: url(/img/aashu2.jpg);
+
+}
+/***************  END OF SCROLL SNAP CSS   ********************/
+
+
+
+
+.circle {
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*hidden music area css*/
+.musicsidebar{
+  width: 10rem;
+  height: 5rem;
+  background: aliceblue;
+  border-top-left-radius: 4rem;
+border-bottom-left-radius: 4rem;
+display: block;
+position: absolute;
+position: fixed;
+  z-index: 19;
+box-shadow: 0px 0px 5px black;
+  bottom: 8rem; right: 0px;
+}
+
+.circle{
+  background: #3943B5;
+  width: 5rem;
+  height: 5rem;
+ border-radius: 50%;
+ box-shadow: 0px 0px 5px black;
+
+}
+
+.circle img{
+  height: 5rem;
+  
+}
+.musichidden{
+box-shadow: 0px 0px 10px black;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 40;
+  background: #4252FF8F;
+  background: #F4A084;
+ display: none;
+}
+
+
+.closearea{
+  width: 4rem; height: 4rem;
+  position: absolute;
+  right: 1rem; top: 1rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 0px 10px black;
+  border: 1px solid white;
+}
+.closearea:hover{
+    background: #8D4B4B;
+   color: silver;
+}
+
+.closearea img{
+  height: 3rem;
+}
+   
+   
+   
+   
+   
+   /*.musichidden{
+        height: 80vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        background: #000;
+        transition: top 1s ease;
+    }
+     .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20rem;
+
+    }
+    nav .openMenu {
+        display: block;
+    }
+    nav .mainMenu li a:hover {
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+    /* @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+
+   @media only screen and (max-width: 490px) {
+html{
+    font-size: 60.00%;
+}}
+
+
+@media only screen and (max-width: 420px) {
+html{
+    font-size: 70.00%;
+}}
+
+@media only screen and (max-width: 415px) {
+html{
+    font-size: 57.00%;
+}}
+
+@media only screen and (max-width: 390px) {
+html{
+    font-size: 52.00%;
+}}
+
+
+	@media only screen and (max-width: 360px) {
+html{
+    font-size: 48.00%;
+}}
+
+
+@media only screen and (max-width: 330px) {
+html{
+    font-size: 43.00%;
+}}
+
+@media only screen and (max-width: 370px) {
+html{
+    font-size: 35.00%;
+}}
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+     @media only screen and (max-width: 500px) {
+html{
+    font-size: 100.00%;
+}}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*music csssssss*/
+/*.musicarea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+  width:100vw;
+  background: #FFFFFA;
+}
+
+.musicbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11rem;
+  width:90%;
+  background: #5D6BFE;
+}
+
+
+ .musicbody{
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:50vw;
+  background: #DAB2FE;
+  background: #FEDDEE;
+  
+}
+
+*/
