@@ -91,7 +91,7 @@ animation: changeShaddow 1s linear infinite;}
 .container{
   height: 20rem;
   /*background: blueviolet;*/
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   
