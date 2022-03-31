@@ -1,2 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="theme-color" content="#FDDBE2">
+  <meta name="msapplicstion-navbutton-color" content="#FFE6EC">
 
-!doctype
+  <title>AASMA</title>
+  <!-- Custom Styles -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styl.css">
+    
+    <link rel="stylesheet" href="css/logsec.css">
+    <link rel="stylesheet" href="css/subcss/Music.css">
+    <link rel="stylesheet" href="css/subcss/gallary.css">
+
+</head>
+
+<body><!--BBBBBB  OOOOOOOOO  DDDDDDDDDDD  YYYYYYYYY------->
+  
+
+  
+  
+  
+  <div class="main">
+    
+  <!-------------------nav area-------------------------------->
+    <div class="nav">
+      <div id="logobox">
+        <img src="/img/logo.png" alt="logo.png">
+      </div>
+    </div>
+  <!--"""""""""""""""""""nav area end"""""""""""""""""""""""-->
+
+
+    
+  <!-------------------NAME AREA START------------------------->
+    <div class="namearea">
+            <h1>PRAMOD</h1>
+    </div>
+  <!-------------------NAME AREA END-------------------------->
+
+      
+      
+
+  <!-------------------SCROLL SNAP AREA----------------------->
+<div class="container">
+  <div class="wrapper">
+    <section id="sec1">
+       <div id="box" class="box1">
+         <button id="vid">Videos</button>
+       </div>
+    </section>
+    <section id="sec2">
+      <div id="box" class="box2"></div>
+    </section>
+  </div>
+</div>
+  <!-------------------SCROLL SNAP AREA END------------------->
+
+
+
+
+<div class="musicsidebar"> 
+   <div class="circle">
+     <img srcset="" src="img/circlemusic.png" alt="">
+   </div>
+
+
+</div>
+<!--music side bar wala-->
+  <div id="musichidden" class="musichidden">
+    <!--<div id="close" class="closearea">
+      CLOSE</div>-->
+      <div class="musiccontainer">
+        
+   <div class="closearea">
+     <img srcset="" src="musicimg/close.png" alt="">
+   </div>
+        
+            <!-- longart -->
+    <div class="longartholder">
+      <div class="longart">
+        <div class="art">
+          <div class="opy">
+            <h1 id="songname"> Love Mushup</h1>
+            <h2 id="artist"></h2>
+            <h3 id="type">Mushup + 8d</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- progress bar v.2.0 -->
+<div class="progress_container" id="progress_container">
+   <div class="progress_duration_meter">
+     <div id="current_time">0:00</div>
+     <div id="duration">5:45</div>
+   </div>
+   
+   <div class="progress_div" id="progress_div">
+     <div class="progress" id="progress"></div>
+   </div>
+ </div>
+    <!--seekbar -->
+    <div class="seekbarholder">
+     <input id="myProgressBar" class="seekbar" type="range" value="0">
+    </div>
+    
+    
+        <!-- controlls -->
+        <div class="controlbox">
+          <div class="controlholder">
+            <div class="chd">
+              <img id="prev" src="musicimg/prev.png" alt="img/prev.png">
+              <div id="playbtn" class="playcircle">
+                <div id="play" class="play"> </div>
+              </div>
+              <img id="next" src="musicimg/next.png" alt="ikg/next.png">
+            </div>
+          </div>
+        </div>
+    
+        <audio src="songs/mushup.mp3"></audio>
+      
+    
+    
+    
+    
+        <!--//////////////////////////////////////////////--->
+
+      </div><!--music container closing-->
+    
+  </div><!--musichidden closing-->
+
+        <!--//////////////////////////////////////////////--->
+  <div class="gallarycontainer">
+  <div class="card">
+    <div class="image image1"></div>
+  </div>
+  <div class="card">
+    <div class="image image2"></div>
+  </div>
+  <div class="card">
+    <div class="image image3"></div>
+  </div>
+</div>
+
+
+
+
+<svg>
+  <filter id="wavy1">
+    <feturbulence x="0" y="0" baseFrequency="0.2" numOctaves="5" seed="1"></feturbulence>
+    <feDisplacementMap in="SourceGraphic" scale="20" />
+  </filter>
+</svg>
+<svg>
+  <filter id="wavy2">
+    <feturbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="1"></feturbulence>
+    <feDisplacementMap in="SourceGraphic" scale="20" />
+  </filter>
+</svg>
+<svg>
+  <filter id="wavy3">
+    <feturbulence x="0" y="0" baseFrequency="0.1" numOctaves="5" seed="1"></feturbulence>
+    <feDisplacementMap in="SourceGraphic" scale="20" />
+  </filter>
+</svg>
+
+
+
+
+
+
+        <!--//////////////////////////////////////////////--->
+
+
+  </div><!--closing of main-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-----------------SCRIPT AREA START------------------------>
+  <script>
+var btn = document.querySelector('.btn');
+var logsec = document.querySelector('.logsec');
+
+          
+
+
+//<!--login password-->
+btn.addEventListener('click',()=>{
+   var un = document.forms["myform"]["un"].value;
+var pass = document.forms["myform"]["pass"].value;
+
+if(un=="a" && pass=="1"){
+ document.querySelector('.logsec').style.display="none";
+    
+}else{
+    alert('wrong password');
+} 
+ 
+    
+});
+    
+</script>
+  
+  <script src="/aashu.js"></script>
+    <script src="/music.js"></script>
+  <!-----------------SCRIPT AREA END------------------------>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--svg area-->
+<!--<div class="svgbody"><img src="/img/romantic.svg" alt="img/ds"></div>-->
+
+
+    
+    
+
+
+       <!--log in section-->
+       <!-- <div class="logsec">
+  <div class="logmain">
+ <div class="login-box">
+     <h2>Login</h2>
+     <form name="myform" method="post">
+    
+      <div class="textbox">
+          <i class="fas fa-user"></i>        
+    <input type="text" id="user" placeholder="Username" name="un"></div>
+        
+        
+      <div class="textbox">
+          <i class="fas fa-lock"></i>
+    <input type="password" id="passd" placeholder="Password" name="pass"></div>
+    
+        <input type="button" class="btn" value="Sign in">
+    </form>
+</div>
+    </div>      
+        
+        
+    </div> -->
+       <!--log in section end-->
+
+
+
+
+       <!--main body after log in-->
+       <!--<div class="main">
+    <div class="opy"><h1>PRAMOD-AASMA</h1></div>
+    <div class="gallary">gallary</div>
+</div>      -->
+
+       <!-- End main body after log in-->
