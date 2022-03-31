@@ -127,7 +127,7 @@ inset -5px -5px 15px rgba(9, 148, 255, 0.5);
 
 /*sections css*/
 .box1{
-    background: url(/img/aashu.jpg);
+    background: url(img/aashu.jpg);
 }
 #vid{
   background: #42445A00;
@@ -144,7 +144,7 @@ inset -5px -5px 15px rgba(9, 148, 255, 0.5);
   color: white;
 }
 .box2{
-    background: url(/img/aashu2.jpg);
+    background: url(img/aashu2.jpg);
 
 }
 /***************  END OF SCROLL SNAP CSS   ********************/
