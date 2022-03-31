@@ -87,7 +87,7 @@ let isPlaying = false;
 
        },
        {
-                  src:url("https://abdulmoqueet.github.io/music-player/songs/Lily.mp3"),
+                 // src:url("https://abdulmoqueet.github.io/music-player/songs/Lily.mp3"),
 
          name: "tha",
          title: "Tum hi aana",
