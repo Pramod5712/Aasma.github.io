@@ -38,7 +38,7 @@
     width:64vw;
           background: red;
 
-      background: url('/cover/mushup.jpg');
+      background: url('cover/mushup.jpg');
 background-size: cover;
 background-position: center;
 
@@ -257,7 +257,7 @@ height: 2rem;
 
 
 .play{
-  background: url('/musicimg/play.png');
+  background: url('musicimg/play.png');
   background-size: 2.1rem;
   background-position: center;
   height: 2.5rem; width: 2rem;
@@ -266,7 +266,7 @@ transition: .2s ease-in;
 }
 
 .pause{
-  background: url('/musicimg/pause.png');
+  background: url('musicimg/pause.png');
   background-size: 2.1rem;
   background-position: center;
   height: 2.5rem; width: 2rem;
