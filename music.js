@@ -39,6 +39,7 @@ const type = document.querySelector('#type');
 
 const next = document.querySelector('#next');
 const play = document.querySelector('#play');
+
 const prev = document.querySelector('#prev');
 const music = document.querySelector('audio');
 let progress = document.querySelector('#progress');
