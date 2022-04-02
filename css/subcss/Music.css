@@ -39,6 +39,8 @@
           background: red;
 
       background: url("/cover/mushup.jpg");
+        /*    background: url(https://github.com/Pramod5712/Aasma.github.io/blob/main/cover/mushup.jpg);*/
+
 background-size: cover;
 background-position: center;
 
