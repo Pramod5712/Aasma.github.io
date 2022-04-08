@@ -90,7 +90,7 @@ let isPlaying = false;
        },
        
        {
-                  src: "https://abdulmoqueet.github.io/music-player/songs/On_My_Way.mp3",
+                  src: "https://dl.dropbox.com/s/7ki1sggd2iotprr/tum%20hi%20aaana%20%28slowed%20%2B%20reverb%29.mp3?dl=0",
 
          name: "tha",
          title: "Tum hi aana",
