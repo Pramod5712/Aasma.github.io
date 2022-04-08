@@ -259,7 +259,7 @@ height: 2rem;
 
 
 .play{
-  background: url("/musicimg/play.png");
+  background: url(https://dl.dropbox.com/s/h1s5gh5i2cdphmk/play.png?dl=0);
   background-size: 2.1rem;
   background-position: center;
   height: 2.5rem; width: 2rem;
@@ -268,7 +268,7 @@ transition: .2s ease-in;
 }
 
 .pause{
-  background: url("/musicimg/pause.png");
+  background: url(https://dl.dropbox.com/s/llb7kdjco1q4l9y/pause.png?dl=0);
   background-size: 2.1rem;
   background-position: center;
   height: 2.5rem; width: 2rem;
