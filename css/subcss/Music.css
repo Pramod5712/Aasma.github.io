@@ -38,8 +38,8 @@
     width:64vw;
           background: red;
 
-      background: url("/cover/mushup.jpg");
-        /*    background: url(https://github.com/Pramod5712/Aasma.github.io/blob/main/cover/mushup.jpg);*/
+     /* background: url("/cover/mushup.jpg");*/
+            background: url(https://dl.dropbox.com/s/yrad4c6zxe1z9ci/mushup.jpg?dl=0);
 
 background-size: cover;
 background-position: center;
