@@ -81,14 +81,16 @@ let isPlaying = false;
 
  const songs = [
        {
+
          name:"mushup",
          title:"Love Mushup",
          artist:"Jubin Nautiyal",
                     type: "Mushup + Love",
 
        },
+       
        {
-                 // src:url("https://abdulmoqueet.github.io/music-player/songs/Lily.mp3"),
+                  src: "https://abdulmoqueet.github.io/music-player/songs/On_My_Way.mp3",
 
          name: "tha",
          title: "Tum hi aana",
@@ -96,12 +98,14 @@ let isPlaying = false;
          type: "Slowed + reverbed",
        
        },
+       
        {
          name: "tbj",
            title: "Tera Ban Jaunga",
            artist: "Tulsi Kumar",
            type: "Reverbed",
        },
+       
        {
         name: "rl",
           title: "Rataan Lambiyan",
@@ -119,8 +123,8 @@ let isPlaying = false;
    artist.textContent = songs.artist;
    type.textContent = songs.type;
 
-   music.src = "/songs/"+songs.name+".mp3";
-  //   music.src = songs.src;
+// music.src = "songs/"+songs.name+".mp3";
+   music.src = songs.src;
 
  art.style.backgroundImage="url(cover/"+songs.name+".jpg)"
 

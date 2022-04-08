@@ -207,7 +207,7 @@ box-shadow: 0px 0px 10px black;
   z-index: 40;
   background: #4252FF8F;
   background: #F4A084;
- display: none;
+ display: flex;
 }
 
 
