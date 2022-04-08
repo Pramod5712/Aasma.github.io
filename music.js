@@ -81,6 +81,7 @@ let isPlaying = false;
 
  const songs = [
        {
+    src: "https://dl.dropbox.com/s/alqqkn46y89qmgg/love%20mashup%20%2B%208d.mp3?dl=0",
 
          name:"mushup",
          title:"Love Mushup",
@@ -90,7 +91,7 @@ let isPlaying = false;
        },
        
        {
-                  src: "https://dl.dropbox.com/s/7ki1sggd2iotprr/tum%20hi%20aaana%20%28slowed%20%2B%20reverb%29.mp3?dl=0",
+     src: "https://dl.dropbox.com/s/7ki1sggd2iotprr/tum%20hi%20aaana%20%28slowed%20%2B%20reverb%29.mp3?dl=0",
 
          name: "tha",
          title: "Tum hi aana",
@@ -100,6 +101,8 @@ let isPlaying = false;
        },
        
        {
+     src: "https://dl.dropbox.com/s/3v3xhxl2k813s9u/tera%20ban%20jaunga%20%20reverbed.mp3?dl=0",
+
          name: "tbj",
            title: "Tera Ban Jaunga",
            artist: "Tulsi Kumar",
@@ -107,6 +110,8 @@ let isPlaying = false;
        },
        
        {
+     src: "https://dl.dropbox.com/s/ghfjfzobwpw7z1b/raataan%20lambhiyan%20slowed%20%20reverb%20%20jubin%20nautiyal%20%20asees%20kaur%20%20indian%20lofi%20song%20channel.mp3?dl=0",
+
         name: "rl",
           title: "Rataan Lambiyan",
           artist: "Jubin Nautiyal", 
