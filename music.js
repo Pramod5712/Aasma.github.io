@@ -128,7 +128,7 @@ let isPlaying = false;
    artist.textContent = songs.artist;
    type.textContent = songs.type;
 
-// music.src = "songs/"+songs.name+".mp3";
+/// music.src = "songs/"+songs.name+".mp3";
    music.src = songs.src;
 
  art.style.backgroundImage="url(cover/"+songs.name+".jpg)"
