@@ -99,7 +99,15 @@ let isPlaying = false;
          type: "Slowed + reverbed",
        
        },
+          {
+            src: "https://dl.dropbox.com/s/b4j6v68eb7esy4f/y2mate.com%20-%20Agar%20Tum%20Saath%20HoSlowed%20%20Reverb%20%20Arijit%20Singh%20Alka%20Yagnik%20%20Lyrics%20Irshad%20Kamil.mp3?dl=0",
        
+            name: "atsh",
+            title: "Agar Tum Sath Ho",
+            artist: "Arijit Singh",
+            type: "Slowed + Reverbed",
+       
+          },
        {
      src: "https://dl.dropbox.com/s/3v3xhxl2k813s9u/tera%20ban%20jaunga%20%20reverbed.mp3?dl=0",
 
