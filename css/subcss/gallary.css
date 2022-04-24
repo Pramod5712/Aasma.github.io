@@ -6,17 +6,23 @@
 
 
 .gallarycontainer {
+  background: hotpink;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
+   align-items: center;
+
+ /* flex-wrap: wrap;
+*/
 }
 
 .card {
+  background: khaki;
   position: relative;
-  width: 280px;
-  height: 350px;
-  margin: 30px;
+  width: 28rem;
+  height: 35rem;
+  margin: 3rem;
 }
 .card:nth-of-type(2) {
   transform: rotate(5deg);
@@ -35,9 +41,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 255px;
-  height: 325px;
-  border: 25px solid #fff;
+  width: 25rem;
+  height: 32.5rem;
+  border: 2.5rem solid #fff;
   z-index: 1;
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
   box-shadow: 7px 7px 21px #bdbdbd, -7px -7px 21px #ffffff;
@@ -70,7 +76,7 @@ svg {
   width: 0;
   height: 0;
 }
-
+/*
 .card .info {
   position: absolute;
   top: 0;
@@ -92,3 +98,4 @@ svg {
   opacity: 1;
 }
 
+*/
