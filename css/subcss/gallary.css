@@ -70,12 +70,12 @@
 }
 
 .image2 {
-  background-image: url("img/pic2.jpg");
+  background-image: url(/img/pic2.jpg);
   background-position: center;   background-size: cover;
 
 }
 .image3 {
-  background-image: url("img/pic3.jpg");
+  background-image: url(/img/pic3.jpg);
     background-position: center;   background-size: cover;
 
 }
