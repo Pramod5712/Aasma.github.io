@@ -6,7 +6,6 @@
 
 
 .gallarycontainer {
-  background: hotpink;
   display: flex;
   overflow: hidden;
     justify-content: center;
@@ -18,7 +17,6 @@
 }
 
 .card {
-  background: khaki;
   position: relative;
   width: 28rem;
   height: 35rem;
