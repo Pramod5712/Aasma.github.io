@@ -63,19 +63,19 @@
 
 
 .image1 {
-  background-image: url("https://dl.dropbox.com/s/8b9hxs5tvfauymk/img_20210404_102533.jpg?dl=0");
+  background-image: url("img/pic1.jpg");
     background-position: center;
   background-size: cover;
 
 }
 
 .image2 {
-  background-image: url("https://dl.dropbox.com/s/f5ojbb0rt9gfmnu/img_20201029_155306.jpg?dl=0");
+  background-image: url("img/pic2.jpg");
   background-position: center;   background-size: cover;
 
 }
 .image3 {
-  background-image: url("https://dl.dropbox.com/s/mnee7jtppvl9ty3/img_20201117_124828.jpg?dl=0");
+  background-image: url("img/pic3.jpg");
     background-position: center;   background-size: cover;
 
 }
