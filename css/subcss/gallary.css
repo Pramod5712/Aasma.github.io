@@ -63,7 +63,7 @@
 
 
 .image1 {
-  background-image: url(img/pic1.jpg);
+  background-image: url(/img/pic1.jpg);
     background-position: center;
   background-size: cover;
 
